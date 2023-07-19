@@ -3,7 +3,8 @@
 - Started at 14:39
 - Finished tasks without styling at 15:55
 - Started styling at 15:55
-- Stop 17:06
+- Finish 17:06
+- Small tweaks till 17:35
 
 # RPF apprentice software engineer challenge
 
