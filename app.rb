@@ -2,6 +2,7 @@
 
 # myapp.rb
 require 'sinatra'
+require 'sinatra/json'
 require_relative 'open_notify'
 
 # Allow our templates in views/ to end in `.html.erb`
@@ -17,4 +18,14 @@ get '/position' do
   iss_now = OpenNotify.iss_now
 
   erb :position, locals: { data: iss_now }
+end
+
+get '/who' do
+  iss_now = OpenNotify.iss_now
+
+  erb :who, locals: { data: iss_now }
+end
+
+get '/iss_position.json' do
+  return json(OpenNotify.iss_now)
 end

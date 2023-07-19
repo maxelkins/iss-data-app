@@ -11,7 +11,7 @@ module OpenNotify
   # loads and parses the data
   #
   # Change this to 'yes' if you want to use the live data.
-  USE_LIVE_DATA = 'no'
+  USE_LIVE_DATA = 'yes'
 
   def iss_now
     fetch_data(api: 'iss-now')

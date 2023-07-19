@@ -1,3 +1,20 @@
-<h1>Where is the ISS? 🛰️</h1>
-<!-- TODO add in actual position here -->
-<p>This observation was made at <%= Time.at(data['timestamp']) %>.</p>
+<nav>
+	<a href="/"><span>←</span>Back</a>
+</nav>
+
+<main>
+	<h1>Where is the ISS? 🛰️</h1>
+    <div class="position">
+        <div class="latlong">
+            <p>
+                <span>Longitude:</span><%= OpenNotify.iss_now['iss_position']['longitude']
+                %>
+            </p>
+            <p>
+                <span>Latitude:</span><%= OpenNotify.iss_now['iss_position']['latitude']
+                %>
+            </p>
+        </div>
+        <p>This observation was made at <%= Time.at(data['timestamp']) %>.</p>
+    </main>
+    </div>

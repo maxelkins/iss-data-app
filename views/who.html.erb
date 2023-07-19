@@ -1,0 +1,15 @@
+<nav>
+	<a href="/"><span>← </span>Back</a>
+</nav>
+
+<main>
+	<h1>Who is in space?</h1>
+	<ul class="who">
+		<% OpenNotify.astros['people'].each do |f| %>
+		<li>
+			<span class="name"><%= f['name'] %></span>
+			<span class="craft"><%= f['craft'] %></span>
+		</li>
+		<% end %>
+	</ul>
+</main>
