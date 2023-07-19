@@ -1,3 +1,10 @@
+# Max's notes
+
+- Started at 14:39
+- Finished tasks without styling at 15:55
+- Started styling at 15:55
+- Stop 17:06
+
 # RPF apprentice software engineer challenge
 
 This is a little application, written in [Ruby](https://ruby-lang.org), using the [Sinatra](https://sinatrarb.com/) framework. It allows users to see the whereabouts of the International Space Station, using the [OpenNotify APIs](http://api.open-notify.org/).
@@ -90,10 +97,3 @@ and you should be able to see it at http://localhost:4567. **NB** When you make 
   - [Comparable](https://ruby-doc.org/3.2.2/Comparable.html) (handy if you're sorting things, e.g Hashes and Arrays)
   - [Enumerable](https://ruby-doc.org/3.2.2/Enumerable.html) (full of useful methods that both Hash and Array can use)
 - [ERB Templating](https://ruby-doc.org/3.2.2/stdlibs/erb/ERB.html) (what we use in our views to execute Ruby)
-
-# Notes
-
-- Started at 14:39
-- Finished tasks without styling at 15:55
-- Started styling at 15:55
-- Stop 17:06
