@@ -72,6 +72,9 @@ nav a span {
 /* Who */
 
 .who {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
 	font-size: 1.5rem;
 	list-style: none;
 	padding: 2rem;
@@ -82,9 +85,9 @@ nav a span {
 
 .who li {
 	display: flex;
+	align-items: center;
 	gap: 1rem;
 	justify-content: space-between;
-	margin-block-end: 1rem;
 }
 
 .craft {
